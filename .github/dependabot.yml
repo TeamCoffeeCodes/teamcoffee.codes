@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+    assignees:
+      - "KokosnussDEV"
+      - "KBOE2"
+    commit-message:
+        prefix: "⬆️"
+        include: "scope"
+    reviewers:
+      - "KokosnussDEV"
+      - "KBOE2"
